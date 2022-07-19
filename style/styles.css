@@ -1,8 +1,13 @@
+/* ------------------font---------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* -------------------container------------------------ */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
-    width: 1000px;
-    margin-left: 10%;
-    margin-top: 20px;
+    margin: 5% 10% 0% 10%;
 }
 *{
     padding: 0%;
@@ -30,20 +35,18 @@ nav ul li a{
     
 }
 /*----------------------------main camera---------------------------------*/
-.collection{
-    margin: 10%;
-}
+
 .main-camera{
     display: flex;
-    border: 1px solid red;
-    margin: 10%;
+    /* margin:5% 10% 10% 10%; */
 }
 .cam{
-    padding: 10% 10% 0% 5%;
-    width: 50%;
+    padding: 10% 10% 0% 0%;
+    
 }
-.main-camera img{
-    width: 90%;
+.back-cam{
+    margin-top: -80%;
+    width: 80%;
 }
 .link-button{
     background-color: rgb(255, 0, 93);
@@ -53,22 +56,40 @@ nav ul li a{
     color: aliceblue;
 }
 
+/* -------------------------------log-------------------------------- */
+
 .log{
-    border-top: 1px solid red;
+    margin: 5%;
+    border-top: 1px solid rgb(240, 238, 238);
     padding: 2%;
-    border-bottom: 1px solid red;
-    
-}
-/* ---------------------------logo style-------------------------------- */
-.log{
-    margin: 10%;
+    border-bottom: 1px solid rgb(240, 238, 238);
 }
 .log img{
+    width: 80px;
     margin-left: 5%;
+}
+
+/* ------------------------------collection--------------------------------- */
+
+.collection{
+    margin: 10% 5% 10% 5%;
+}
+.collection h1{
+    text-align: center;
+    margin: 5%;
 }
 .collection-title{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 2%;  
+}
+.ar-title{
+    
+    padding: 5%;
+    box-shadow: 10px 10px 20px silver;    
+}
+.thubnail img{
+    width: 250px;
 }
 .more{
     margin-top: 20px;
@@ -76,9 +97,13 @@ nav ul li a{
     color: brown;
     float: right;
 }
+
+/* --------------------------one place------------------------------- */
+
 .one-place{
     display: flex;
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     
 }
 .place-info{
@@ -91,6 +116,9 @@ nav ul li a{
     padding: 7px 20px;
     color: white;
 }
+
+/* ----------------------------footer---------------------------------- */
+
 footer{
     text-align: center;
     background-color: rgb(5, 5, 41);
@@ -108,4 +136,16 @@ ul i{
 }
 i{
     margin-left: 10px;
+}
+
+/* -------------------------------mobile device----------------------------- */
+
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .collection-title, nav{
+        background-color: azure;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
