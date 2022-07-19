@@ -1,0 +1,111 @@
+
+.container{
+    width: 1000px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+
+}
+label.influ-menu{
+    font-size: larger;
+    line-height: 50px;
+    font-weight: 600;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 5px;
+}
+nav ul li a{
+    font-size: 18px;
+    color: black;
+    
+}
+/*----------------------------main camera---------------------------------*/
+.collection{
+    margin: 10%;
+}
+.main-camera{
+    display: flex;
+    border: 1px solid red;
+    margin: 10%;
+}
+.cam{
+    padding: 10% 10% 0% 5%;
+    width: 50%;
+}
+.main-camera img{
+    width: 90%;
+}
+.link-button{
+    background-color: rgb(255, 0, 93);
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: large;
+    color: aliceblue;
+}
+
+.log{
+    border-top: 1px solid red;
+    padding: 2%;
+    border-bottom: 1px solid red;
+    
+}
+/* ---------------------------logo style-------------------------------- */
+.log{
+    margin: 10%;
+}
+.log img{
+    margin-left: 5%;
+}
+.collection-title{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.more{
+    margin-top: 20px;
+    font-weight: 600;
+    color: brown;
+    float: right;
+}
+.one-place{
+    display: flex;
+    margin: 10%;
+    
+}
+.place-info{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.join{
+    margin-top: 50px;
+    background-color: rgb(245, 35, 116);
+    padding: 7px 20px;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(5, 5, 41);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+ul i{
+    margin-left: 10px;
+}
+.fa-instagram{
+    background-color: rgb(117, 96, 66);
+    padding: 3px;
+    border-radius: 12px;
+}
+i{
+    margin-left: 10px;
+}
